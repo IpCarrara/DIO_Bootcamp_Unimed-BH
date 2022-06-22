@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+a {
+    color:rgb(0, 149, 246); 
+}
+
+.container-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 90vh;
+}
+
+.smartphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.smartphone img{
+    height: 43rem;
+}
+
+.instagram-conta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 34rem;
+    width: 50%;
+    margin-top: 4.5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    background-color: #ffffff;
+    padding: 1.5rem 0;
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.card:nth-child(1){
+    min-height: 19rem;
+}
+
+.logo-instagram {
+    height: 3.5rem;
+}
+
+.foto-perfil img{
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.botao-login{
+    background-color: rgb(0, 149, 246);
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.botao-login:hover{
+    cursor: pointer;
+}
+
+.logout{
+    color:rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+.conta-errada{
+    color: rgb(160, 160, 160);
+    padding-bottom: 0.3rem;
+}
+
+.link-negrito{
+    font-weight: 550;
+}
+
+.baixar-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.baixar-local{
+    display: flex;
+    width: 90%;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.baixar-local img {
+    height: 3rem;
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+    .container-instagram{
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .container-instagram{
+        width: 90%;
+    }
+
+    .smartphone{
+        display: none;
+    }
+
+    .instagram-conta{
+        width: 100%;
+    }
+
+    .card {
+
+        border: 1px solid transparent;
+    }
+}
