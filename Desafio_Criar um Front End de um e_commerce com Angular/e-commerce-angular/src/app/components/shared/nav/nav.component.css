@@ -1,0 +1,15 @@
+.fundo{
+    background-color:rgb(83, 25, 0) ;
+}
+
+/* Botões */
+
+.btn-outline-light{
+    color:rgba(255,255,255,.55)!important;
+    border-color:rgba(255,255,255,.55)!important;;
+}
+
+.btn-outline-light:hover{
+    color:rgb(83, 25, 0)!important;
+    border-color:rgba(255,255,255,.55)!important;;
+}
