@@ -1,0 +1,43 @@
+/* Cards */
+
+.card{
+    background-image: url("/assets/images/livro.jpg");
+    background-size: 100%;
+}
+
+.card-footer{
+    background-color:rgba(247, 231, 225, 0.7) !important;
+}
+
+.footerPreco{
+    position:absolute; 
+    bottom:0; 
+    width:100%;
+}
+
+/* Botões */
+
+.botaoComprar{
+    background-color:rgba(96, 29, 0, 0.9) ;
+    border-color: rgb(255, 255, 255);
+    color:white;
+}
+
+.botaoComprar:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(96, 29, 0, 0.9);
+    border-color:  rgba(96, 29, 0, 0.9);
+  }
+
+.botaoDetalhe{
+    border-color: rgb(255, 255, 255);
+    color: rgba(96, 29, 0);
+}
+
+.botaoDetalhe:hover {
+    background-color: rgba(96, 29, 0, 0.9);
+    color: rgb(255, 255, 255);
+    border-color:  rgb(255, 255, 255);
+}
+
+

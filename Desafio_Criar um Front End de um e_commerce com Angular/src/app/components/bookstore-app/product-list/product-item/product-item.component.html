@@ -1,0 +1,20 @@
+<div class="d-flex h-100 card card-cascade wider shadow justify-content-between">
+  <div class="view overlay hm-white-slight" style="margin-bottom: 3%">
+    <img class="bd-placeholder-img card-img-top" width="100%" src='{{ livro.value.image }}'>
+  </div>
+  <div class="card-body align-middle">
+    <div class="card-block text-center" style="margin-top: -15%;">
+      <div class="mb-1">
+          <h5 class="card-text text-center">{{ livro.value.title | titlecase  }}</h5>
+    </div>
+  </div>
+  <div style="padding-top: 90px; margin-left: -4.3px;">
+    <div class="row card-footer mt-auto footerPreco">
+      <p class="justify-content-center "><span style="font-weight: bold;">Preço:</span> R{{ livro.value.price }}</p>
+      <div class="btn-group justify-content-center">
+        <button type="button" class="btn btn-sm botaoComprar">Comprar</button>
+        <button type="button" class="btn btn-sm botaoDetalhe">Detalhes</button>
+      </div>
+    </div>
+  </div>
+</div>
