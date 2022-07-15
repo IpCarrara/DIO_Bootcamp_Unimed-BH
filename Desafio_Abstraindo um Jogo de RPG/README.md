@@ -7,4 +7,4 @@ O desafio propunha criar uma abstração simples de um jogo RPG em C# utilizando
 Screenshot do modelo proposto com nome dos personagens e suas características:
 
 
-![ScreenShot](/src/Image/Capture.JPG)
+![ScreenShot](./src/Image/Capture.JPG)
