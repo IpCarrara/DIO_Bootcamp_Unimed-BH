@@ -15,11 +15,9 @@
                 switch (opcaoUsuarioMenuInicial)
                 {
                     case "1":
-                        //Series;
                         MenuSeries.OpcoesSeries();
                         break;
                     case "2":
-                        //Filmes;
                         MenuFilmes.OpcoesFilmes();
                         break;
                     default:
@@ -32,9 +30,6 @@
             Console.WriteLine("Obrigado por utilizar nossos serviços.");
             Console.ReadLine();
         }
-
-        //Pronto
-
 
         private static string ObterOpcaoUsuarioMenuInicial()
         {
