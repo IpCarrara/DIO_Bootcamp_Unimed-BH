@@ -7,5 +7,5 @@ O desafio propunha a criar de um repositório no Github para compartilhar os pro
 <br>
 
 <p align="center">
-    <img src="./Anotacoes/Images/Checklist%20.jpg" alt="drawing" width="400"/>
+    <img src="./Anotacoes/Images/Checklist%20.png" alt="drawing" width="400"/>
 </p>
